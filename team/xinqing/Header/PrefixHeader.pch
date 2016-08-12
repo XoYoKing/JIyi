@@ -1,0 +1,103 @@
+//
+//  PrefixHeader.pch
+//  team
+//
+//  Created by lanou3g on 15/11/9.
+//  Copyright © 2015年 钮海雷. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//第三方
+#import "YYCycleScrollView.h"
+//日历
+
+#import "CalendarController.h"
+
+//日程表格
+#import "Hong.h"
+//添加日程时间选择
+#import "CustomTableViewController.h"
+#import "CustomCell.h"
+#import "CustomDateView.h"
+//添加具体日程
+
+#import "EditTableViewController.h"
+#import "Schedule.h"
+
+
+//日程详情
+#import "ScheduleInfoTableViewController.h"
+#import "ScheduleViewCell.h"
+#import "ScheduleSQL.h"
+
+//生日提醒
+#import "BirthdayViewController.h"
+#import "BirthdayViewCell.h"
+#import "AddBirthViewController.h"
+#import "AddBirthdayView.h"
+#import "Birthday.h"
+#import "BirthdaySQL.h"
+
+
+
+
+//来自友盟的社会化分享
+#import "UMSocialData.h"
+#import "UMSocial.h"
+
+//编辑心晴日记
+#import "WriteDiaryViewController.h"
+#import "WaterFallFlowLayout.h"
+#import "WaterFallUICollectionViewCell.h"
+#import "WriteViewController.h"
+//自定义的ImageView
+#import "ImageViewMine.h"
+//模型
+#import "Diary.h"
+//日记的数据库;
+#import "DBManager.h"
+//图片存储到本地的归档工具
+#import "ContactData.h"
+#import "dataImageManager.h"
+
+//查看心情日记
+#import "LookDiaryTableViewController.h"
+#import "LookDiaryViewController.h"
+#import "Frame.h"
+#import "ModelViewController.h"
+
+//第一次启动界面
+#import "InfoViewController.h"
+#import "AppDelegate.h"
+#import "MainViewController.h"
+#import "MainNavigationViewController.h"
+#import "Weather.h"
+
+#pragma mark 天气cell
+#import "WeatherViewController.h"
+
+//扫一扫
+#import "QRViewController.h"
+
+
+//每日推荐
+#import "ModelForMeiwen.h"
+#import "DailyViewController.h"
+
+
+
+//DUG模式下的输出
+#ifndef __OPTIMIZE__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...) {}
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
